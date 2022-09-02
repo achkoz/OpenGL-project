@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/thef/Desktop/cppPro/OpenGL project/build",
+  "command": "/usr/bin/g++  -I\"/home/thef/Desktop/cppPro/OpenGL project/src\" -I\"/home/thef/Desktop/cppPro/OpenGL project/include\" -g -o CMakeFiles/opengl.dir/main.cpp.o -c \"/home/thef/Desktop/cppPro/OpenGL project/main.cpp\"",
+  "file": "/home/thef/Desktop/cppPro/OpenGL project/main.cpp"
+}
+]
