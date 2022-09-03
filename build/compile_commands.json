@@ -1,7 +1,27 @@
 [
 {
   "directory": "/home/thef/Desktop/cppPro/OpenGL project/build",
-  "command": "/usr/bin/g++  -I\"/home/thef/Desktop/cppPro/OpenGL project/src\" -I\"/home/thef/Desktop/cppPro/OpenGL project/include\" -g -o CMakeFiles/opengl.dir/main.cpp.o -c \"/home/thef/Desktop/cppPro/OpenGL project/main.cpp\"",
+  "command": "/usr/bin/g++  -I\"/home/thef/Desktop/cppPro/OpenGL project/include\" -g -std=gnu++20 -o CMakeFiles/opengl.dir/main.cpp.o -c \"/home/thef/Desktop/cppPro/OpenGL project/main.cpp\"",
   "file": "/home/thef/Desktop/cppPro/OpenGL project/main.cpp"
+},
+{
+  "directory": "/home/thef/Desktop/cppPro/OpenGL project/build",
+  "command": "/usr/bin/g++  -I\"/home/thef/Desktop/cppPro/OpenGL project/include\" -g -std=gnu++20 -o CMakeFiles/opengl.dir/src/Camera.cpp.o -c \"/home/thef/Desktop/cppPro/OpenGL project/src/Camera.cpp\"",
+  "file": "/home/thef/Desktop/cppPro/OpenGL project/src/Camera.cpp"
+},
+{
+  "directory": "/home/thef/Desktop/cppPro/OpenGL project/build",
+  "command": "/usr/bin/g++  -I\"/home/thef/Desktop/cppPro/OpenGL project/include\" -g -std=gnu++20 -o CMakeFiles/opengl.dir/src/LightRenderer.cpp.o -c \"/home/thef/Desktop/cppPro/OpenGL project/src/LightRenderer.cpp\"",
+  "file": "/home/thef/Desktop/cppPro/OpenGL project/src/LightRenderer.cpp"
+},
+{
+  "directory": "/home/thef/Desktop/cppPro/OpenGL project/build",
+  "command": "/usr/bin/g++  -I\"/home/thef/Desktop/cppPro/OpenGL project/include\" -g -std=gnu++20 -o CMakeFiles/opengl.dir/src/Mesh.cpp.o -c \"/home/thef/Desktop/cppPro/OpenGL project/src/Mesh.cpp\"",
+  "file": "/home/thef/Desktop/cppPro/OpenGL project/src/Mesh.cpp"
+},
+{
+  "directory": "/home/thef/Desktop/cppPro/OpenGL project/build",
+  "command": "/usr/bin/g++  -I\"/home/thef/Desktop/cppPro/OpenGL project/include\" -g -std=gnu++20 -o CMakeFiles/opengl.dir/src/ShaderLoader.cpp.o -c \"/home/thef/Desktop/cppPro/OpenGL project/src/ShaderLoader.cpp\"",
+  "file": "/home/thef/Desktop/cppPro/OpenGL project/src/ShaderLoader.cpp"
 }
 ]

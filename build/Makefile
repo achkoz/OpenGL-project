@@ -173,6 +173,102 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/opengl.dir/build.make CMakeFiles/opengl.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+src/Camera.o: src/Camera.cpp.o
+.PHONY : src/Camera.o
+
+# target to build an object file
+src/Camera.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/opengl.dir/build.make CMakeFiles/opengl.dir/src/Camera.cpp.o
+.PHONY : src/Camera.cpp.o
+
+src/Camera.i: src/Camera.cpp.i
+.PHONY : src/Camera.i
+
+# target to preprocess a source file
+src/Camera.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/opengl.dir/build.make CMakeFiles/opengl.dir/src/Camera.cpp.i
+.PHONY : src/Camera.cpp.i
+
+src/Camera.s: src/Camera.cpp.s
+.PHONY : src/Camera.s
+
+# target to generate assembly for a file
+src/Camera.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/opengl.dir/build.make CMakeFiles/opengl.dir/src/Camera.cpp.s
+.PHONY : src/Camera.cpp.s
+
+src/LightRenderer.o: src/LightRenderer.cpp.o
+.PHONY : src/LightRenderer.o
+
+# target to build an object file
+src/LightRenderer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/opengl.dir/build.make CMakeFiles/opengl.dir/src/LightRenderer.cpp.o
+.PHONY : src/LightRenderer.cpp.o
+
+src/LightRenderer.i: src/LightRenderer.cpp.i
+.PHONY : src/LightRenderer.i
+
+# target to preprocess a source file
+src/LightRenderer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/opengl.dir/build.make CMakeFiles/opengl.dir/src/LightRenderer.cpp.i
+.PHONY : src/LightRenderer.cpp.i
+
+src/LightRenderer.s: src/LightRenderer.cpp.s
+.PHONY : src/LightRenderer.s
+
+# target to generate assembly for a file
+src/LightRenderer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/opengl.dir/build.make CMakeFiles/opengl.dir/src/LightRenderer.cpp.s
+.PHONY : src/LightRenderer.cpp.s
+
+src/Mesh.o: src/Mesh.cpp.o
+.PHONY : src/Mesh.o
+
+# target to build an object file
+src/Mesh.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/opengl.dir/build.make CMakeFiles/opengl.dir/src/Mesh.cpp.o
+.PHONY : src/Mesh.cpp.o
+
+src/Mesh.i: src/Mesh.cpp.i
+.PHONY : src/Mesh.i
+
+# target to preprocess a source file
+src/Mesh.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/opengl.dir/build.make CMakeFiles/opengl.dir/src/Mesh.cpp.i
+.PHONY : src/Mesh.cpp.i
+
+src/Mesh.s: src/Mesh.cpp.s
+.PHONY : src/Mesh.s
+
+# target to generate assembly for a file
+src/Mesh.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/opengl.dir/build.make CMakeFiles/opengl.dir/src/Mesh.cpp.s
+.PHONY : src/Mesh.cpp.s
+
+src/ShaderLoader.o: src/ShaderLoader.cpp.o
+.PHONY : src/ShaderLoader.o
+
+# target to build an object file
+src/ShaderLoader.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/opengl.dir/build.make CMakeFiles/opengl.dir/src/ShaderLoader.cpp.o
+.PHONY : src/ShaderLoader.cpp.o
+
+src/ShaderLoader.i: src/ShaderLoader.cpp.i
+.PHONY : src/ShaderLoader.i
+
+# target to preprocess a source file
+src/ShaderLoader.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/opengl.dir/build.make CMakeFiles/opengl.dir/src/ShaderLoader.cpp.i
+.PHONY : src/ShaderLoader.cpp.i
+
+src/ShaderLoader.s: src/ShaderLoader.cpp.s
+.PHONY : src/ShaderLoader.s
+
+# target to generate assembly for a file
+src/ShaderLoader.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/opengl.dir/build.make CMakeFiles/opengl.dir/src/ShaderLoader.cpp.s
+.PHONY : src/ShaderLoader.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -187,6 +283,18 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... src/Camera.o"
+	@echo "... src/Camera.i"
+	@echo "... src/Camera.s"
+	@echo "... src/LightRenderer.o"
+	@echo "... src/LightRenderer.i"
+	@echo "... src/LightRenderer.s"
+	@echo "... src/Mesh.o"
+	@echo "... src/Mesh.i"
+	@echo "... src/Mesh.s"
+	@echo "... src/ShaderLoader.o"
+	@echo "... src/ShaderLoader.i"
+	@echo "... src/ShaderLoader.s"
 .PHONY : help
 
 
